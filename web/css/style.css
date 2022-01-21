@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #444;
+    margin: 250px auto;
+}
+form {
+  width:750px;
+  padding: 50px;
+  margin:30px auto;
+  box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.125) inset, 2px 2px 5px 2px rgba(0,0,0,0.5);
+  border-radius: 25px;
+  background:lightgray;
+  transition: 500ms;
+  
+}
+form:hover{
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.125) inset, 2px 2px 5px 2px rgba(0,0,0,0.9);
+}
+h1{
+    text-align: center;
+    color: blue;
+    margin-bottom: 50px;
+    font-family: arial;
+    font-weight: bold;
+}
+.bilgiler{
+    text-align: center;
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-family: arial;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.125) inset, 2px 2px 5px 2px rgba(0,0,0,0.25);
+    background: #eee;
+}
+.kullanici{
+    width: 375px;
+    margin: 10px auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+}
+.kullanici p{
+    margin: 10px;
+}
+.kullanici label{
+    float: left;
+    font-size: 20px;
+}
+.kullanici input{
+    float: right;
+}
+input[type = "text"], input[type = password]{
+    border: none;
+    font-size: 18px;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.25) inset;
+    padding-left: 20px;
+    transition: 300ms;
+}
+input[type = "text"]:focus, input[type = password]:focus{
+    background: #ccc;
+    box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.5) inset;
+}
+.hatirla{
+    width: 350px;
+    margin: 25px auto 0 auto;
+    text-align: left;
+    padding-left: 20px;
+}
+.p-container{
+    text-align: center;
+}
+.bilgi{
+    margin-top: 15px;
+    text-align: center;
+    color:red;
+    font-family: arial;
+    transition: 300ms;
+}
+input[type="submit"]{
+    padding: 15px 20px;
+    font-size: 20px;
+    background-color:#fff;
+    border: none;
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.40);
+    border-radius: 10px;
+    border: 1px solid #333;
+    color: #333;
+    cursor: pointer;
+    transition: 300ms;
+}
+input[type = "submit"]:hover{
+    color: white;
+    background: #333;
+    border: 1px solid white;
+}
+input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+.hatirla label{
+    font-size: 20px;
+}
